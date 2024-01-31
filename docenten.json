@@ -1,0 +1,20 @@
+[
+  {
+    "userid": 1,
+    "name": "Adrie van Doesburg",
+    "mail": "adrie.vandoesburg@hu.nl",
+    "functie": "HBO-ICT Studieloopbaanbegeleiding"
+  },
+  {
+    "userid": 2,
+    "name": "Peter van Rooijen",
+    "mail": "peter.vanrooijen@hu.nl",
+    "functie": "HBO-ICT Software Development"
+  },
+  {
+    "userid": 3,
+    "name": "Henk van Nimwegen",
+    "mail": "henkvannimwegen@gmail.com",
+    "functie": "Docentbegeleider"
+  }
+]
