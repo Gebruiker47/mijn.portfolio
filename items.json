@@ -26,14 +26,14 @@
     "model": "WGG244A6NL Serie 6 i-Dos",
     "category": "huishouden",
     "images": [
+       {
+        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
+      }
       {
         "image": "https://image.coolblue.nl/max/500x500/products/1888825"
       },
       {
         "image": "https://image.coolblue.nl/max/500x500/products/1888824"
-      },
-      {
-        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
       }
     ]
   },
@@ -46,14 +46,15 @@
     "category": "huishouden",
     "images": [
       {
+        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
+      },
+      {
         "image": "https://image.coolblue.nl/max/500x500/products/1888825"
       },
       {
         "image": "https://image.coolblue.nl/max/500x500/products/1888824"
       },
-      {
-        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
-      },
+      
       {
         "image": "https://image.coolblue.nl/max/500x500/products/1888828"
       }
