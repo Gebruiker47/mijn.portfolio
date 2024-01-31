@@ -1,26 +1,119 @@
 [
-  {
-    "userid": 1,
-    "name": "Orhan Kurtay",
-    "mail": "ok@gmail.com",
-    "password": "1"
-  },
-  {
-    "userid": 2,
-    "name": "Persoon 2",
-    "mail": "p2@gmail.com",
-    "password": "2"
-  },
-  {
-    "userid": 3,
-    "name": "Persoon 3",
-    "mail": "p3@gmail.com",
-    "password": "3"
-  },
-  {
-    "userid": 4,
-    "name": "Kurtay",
-    "mail": "k@gmail.com",
-    "password": "4"
-  }
+    {
+        "userid": 1,
+        "name": "Orhan Kurtay",
+        "mail": "ok@gmail.com",
+        "password": "1",
+        "coins": [
+            {
+                "id": 2763,
+                "prijs": "100",
+                "coinName": "XCOIN"
+            },
+            {
+                "id": 4159,
+                "prijs": "10",
+                "coinName": "Text coin 1"
+            },
+            {
+                "id": 648,
+                "prijs": "20",
+                "coinName": "Test Coin B"
+            },
+            {
+                "id": 2330,
+                "prijs": "800",
+                "coinName": "TestCoin D"
+            },
+            {
+                "id": 7334,
+                "coinName": "01coin",
+                "prijs": "1025"
+            },
+            {
+                "id": 5695,
+                "coinName": "0VIX Protocol",
+                "prijs": "1200"
+            },
+            {
+                "id": 914,
+                "coinName": "Aave AMM UniMKRWETH",
+                "prijs": "60"
+            }
+        ]
+    },
+    {
+        "userid": 2,
+        "name": "Persoon 2",
+        "mail": "p2@gmail.com",
+        "password": "2",
+        "coins": [
+            {
+                "id": 2012,
+                "prijs": "50",
+                "coinName": "XXXXXbitcoin"
+            },
+            {
+                "id": 2018,
+                "prijs": "40",
+                "coinName": "XX0xvault"
+            },
+            {
+                "id": 6836,
+                "coinName": "O-MEE",
+                "prijs": "100"
+            },
+            {
+                "id": 3607,
+                "coinName": "0xDEFCAFE",
+                "prijs": "10"
+            }
+        ]
+    },
+    {
+        "userid": 3,
+        "name": "Persoon 3",
+        "mail": "p3@gmail.com",
+        "password": "3",
+        "coins": [
+            {
+                "id": 2020,
+                "prijs": "20",
+                "coinName": "ZZZbitcoin"
+            },
+            {
+                "id": 2022,
+                "prijs": "500",
+                "coinName": "ZZZ0xvault"
+            },
+            {
+                "id": 2934,
+                "coinName": "0xAISwap",
+                "prijs": "20"
+            }
+        ]
+    },
+    {
+        "userid": 4,
+        "name": "Kurtay",
+        "mail": "k@gmail.com",
+        "password": "4",
+        "coins": [
+            {
+                "id": 2024,
+                "prijs": "15",
+                "coinName": "Test0xvault"
+            },
+            {
+                "id": 6267,
+                "coinName": "Bitcoin",
+                "prijs": "80"
+            },
+            {
+                "id": 9444,
+                "coinName": "0 Knowledge Network",
+                "prijs": "1"
+            }
+        ]
+    }
 ]
