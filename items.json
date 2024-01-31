@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "wasmachine",
-    "type": "ok@gmail.com",
+    "type": "test 1 type",
     "merk": "Bosch",
     "model": "WGG244A6NL Serie 6 i-Dos",
     "category": "huishouden",
@@ -21,7 +21,7 @@
   {
     "id": 1,
     "name": "wasmachine",
-    "type": "ok@gmail.com",
+    "type": "test 2 type",
     "merk": "Bosch",
     "model": "WGG244A6NL Serie 6 i-Dos",
     "category": "huishouden",
@@ -40,7 +40,7 @@
   {
     "id": 1,
     "name": "wasmachine",
-    "type": "ok@gmail.com",
+    "type": "test 3 type",
     "merk": "Bosch",
     "model": "WGG244A6NL Serie 6 i-Dos",
     "category": "huishouden",
