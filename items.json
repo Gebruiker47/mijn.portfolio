@@ -8,54 +8,63 @@
     "category": "huishouden",
     "images": [
       {
+        "id": 1,
         "image": "https://image.coolblue.nl/max/500x500/products/1888825"
       },
       {
+        "id": 2,
         "image": "https://image.coolblue.nl/max/500x500/products/1888824"
       },
       {
+        "id": 3,
         "image": "https://image.coolblue.nl/max/500x500/products/1911109"
       }
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "wasmachine",
     "type": "test 2 type",
     "merk": "Bosch",
     "model": "WGG244A6NL Serie 6 i-Dos",
     "category": "huishouden",
     "images": [
-       {
-        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
-      }
       {
-        "image": "https://image.coolblue.nl/max/500x500/products/1888825"
+        "id": 4,
+        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
       },
       {
+        "id": 5,
         "image": "https://image.coolblue.nl/max/500x500/products/1888824"
+      },
+      {
+        "id": 6,
+        "image": "https://image.coolblue.nl/max/500x500/products/1888825"
       }
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "wasmachine",
     "type": "test 3 type",
     "merk": "Bosch",
     "model": "WGG244A6NL Serie 6 i-Dos",
-    "category": "huishouden",
+    "category": "keuken",
     "images": [
       {
-        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
+        "id": 7,
+        "image": "https://image.coolblue.nl/max/500x500/products/1888824"
       },
       {
+        "id": 8,
         "image": "https://image.coolblue.nl/max/500x500/products/1888825"
       },
       {
-        "image": "https://image.coolblue.nl/max/500x500/products/1888824"
+        "id": 9,
+        "image": "https://image.coolblue.nl/max/500x500/products/1911109"
       },
-      
       {
+        "id": 10,
         "image": "https://image.coolblue.nl/max/500x500/products/1888828"
       }
     ]
