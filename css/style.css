@@ -1,0 +1,59 @@
+img {
+  width: 100%;
+  height: auto;
+}
+.image-column:nth-last-child(0n + 1) {
+  margin-bottom: 100px;
+}
+.image-column {
+  float: left;
+  width: 47%;
+  padding: 5px;
+  border: 2px solid #333;
+  margin: 5px;
+  text-align: center;
+}
+.image-column p {
+  background: rgb(34, 34, 135);
+  padding: 10px;
+  color: #fff;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .image-column {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .image-column {
+    width: 45%;
+  }
+}
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+td {
+  padding: 10px;
+}
+.done {
+  background: lightgreen;
+}
+.in-progress {
+  background: orange;
+}
+.to-do {
+  background: tomato;
+}
+.userStory {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+/*footer {position: fixed; left: 0; bottom: 0; margin-top: 10px; padding: 10px; */
+/*    width: 100%; background-color: #333; color: white;*/
+/*}*/
+.content {
+  padding-bottom: 100px;
+}
