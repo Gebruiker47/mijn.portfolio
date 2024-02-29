@@ -69,4 +69,18 @@ td {
   display: inline-block;
   padding: 10px;
   background-color: cadetblue;
+  border-radius: 5px;
+}
+
+#menu a {
+  color: rgb(0, 0, 0);
+}
+
+#menu li:hover {
+  background: white;
+}
+
+#menu-container {
+  padding: 10px;
+  background: #333;
 }
