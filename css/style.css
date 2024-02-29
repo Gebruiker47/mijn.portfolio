@@ -7,8 +7,8 @@ a {
 }
 
 .container {
-  margin: 2% auto auto;
-  width: 50%;
+  margin: auto;
+  width: 90%;
 }
 
 img {
@@ -37,6 +37,15 @@ img {
     margin-bottom: 10px;
     margin-left: 0px;
   }
+
+  .container {
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
 }
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
   .image-column {
