@@ -64,7 +64,7 @@ td {
   padding-bottom: 100px;
 }
 
-li {
+#menu li {
   list-style: none;
   display: inline-block;
   padding: 10px;
