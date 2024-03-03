@@ -15,14 +15,49 @@
       </ul>
     </div>
     <div>
-      <p style="text-align: center">
+      <p class="info">
         Hieronder ziet u screenshots van mijn website die ik als hobby heb
         gebouwd.
       </p>
+
+      <div class="more-details">
+        <p>
+          <strong>Afbeelding 1</strong> is een screenshot van de home pagina. De
+          home pagina is een php pagina. Op deze pagina kan een gebruiker een
+          vacature toevoegen, verwijderen, wijzigen of details van een vacature
+          lezen.
+        </p>
+        <p>
+          <strong>Afbeelding 2</strong> hieronder is de vacature-overzicht
+          pagina en toont alle toegevoegde vacatures die een gebruiker heeft
+          toegevoegd. Deze pagina bevat een filter opties die een gebruiker kan
+          filteren op categorie, niveau en status. Verder kan een gebruiker een
+          vacature zoeken op vacature-nummer, title, categorie, plaats en andere
+          gegevens. De onderstaande pagina is een html pagina en is gebouwd met
+          Angular 1.6.2. De gegevens worden uit de mysql database opgehaald en
+          omgezet in Json format. Daarna worden de gegevens met ng-repeat op het
+          scherm afgedrukt.
+        </p>
+
+        <p>
+          <strong>Afbeelding 3</strong> laat de dashboard-pagina zien. De
+          onderstaande grafiek is dynamisch en past zich automatisch aan als de
+          data verandert. Voor deze grafiek is gebruik gemaakt van Google
+          charts.
+        </p>
+
+        <p>
+          <strong>De laatste afbeelding</strong> toont een login pagina. Om CV
+          te zien dient een gebruiker in te loggen met eenvooraf gegeven code.
+          Deze code heeft een duur van 7 dagen. Na 7 dagen vervalt de code. Om
+          de code te heractiveren, kan ik de datum via de database verlengen.
+        </p>
+      </div>
       <div class="image-column">
         <p>Afbeelding 1 : Home</p>
         <img src="../src/vacature-website/Home.png" alt="Home" />
       </div>
+
       <div class="image-column">
         <p>Afbeelding 2 : Vacature overzicht</p>
         <img
@@ -30,6 +65,7 @@
           alt="vacatures"
         />
       </div>
+
       <div class="image-column">
         <p>Afbeelding 3 : Dashboard</p>
         <img src="../src/vacature-website/Dashboard.png" alt="dashboard" />

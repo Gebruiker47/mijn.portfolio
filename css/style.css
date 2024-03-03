@@ -33,20 +33,12 @@ img {
 }
 @media only screen and (min-width: 0px) and (max-width: 600px) {
   .image-column {
-    width: 100%;
+    width: 96%;
     margin-bottom: 10px;
-    margin-left: 0px;
-  }
-
-  .container {
-    padding: 20px;
-    width: 100%;
-    margin: 0;
+    left: 0px;
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 900px) {
-}
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
   .image-column {
     width: 45.8%;
@@ -83,4 +75,35 @@ td {
 #menu-container {
   padding: 10px;
   background: #333;
+  margin-bottom: 10px;
+}
+
+.info {
+  border-left: 15px solid #2196f3;
+  padding: 5px;
+  background: #b8daff;
+  border-radius: 5px;
+}
+
+.my-header {
+  font-size: 16pt;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+  .my-header {
+    margin: auto;
+    width: 100%;
+    font-size: 18pt;
+    text-align: center;
+    background: yellow;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.image-column:first-child(p) {
+  text-align: left;
+  background: #fff;
 }
