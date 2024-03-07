@@ -15,6 +15,16 @@ img {
   width: 100%;
   height: auto;
 }
+#mobile-menu {
+  /* background: #80107e; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+#mobile-menu-container,
+#mobile-menu {
+  display: none;
+}
 .image-column:nth-last-child(0n + 1) {
   margin-bottom: 100px;
 }
@@ -31,13 +41,71 @@ img {
   padding: 10px;
   color: #fff;
 }
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-  .image-column {
-    width: 96%;
-    margin-bottom: 10px;
-    left: 0px;
-  }
+
+/* Custom hamburger menu */
+
+.menu-button {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  background: #333;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
+
+.menu-btn-burger {
+  position: absolute;
+  right: 20px;
+  width: 50px;
+  height: 6px;
+  background-color: #0066ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 100, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn-burger::before,
+.menu-btn-burger::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background-color: #0066ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 100, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn-burger::before {
+  transform: translateY(-16px);
+}
+
+.menu-btn-burger::after {
+  transform: translateY(16px);
+}
+
+/* animatie van de hamburger menu */
+.menu-button.open .menu-btn-burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-button.open .menu-btn-burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-button.open .menu-btn-burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+/* End of custom hamburger menu */
 
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
   .image-column {
@@ -56,7 +124,8 @@ td {
   padding-bottom: 100px;
 }
 
-#menu li {
+#menu li,
+#mobile-menu li {
   list-style: none;
   display: inline-block;
   padding: 10px;
@@ -72,10 +141,16 @@ td {
   background: white;
 }
 
+/* #my-mobile-menu {
+  display: none;
+  cursor: pointer;
+} */
 #menu-container {
-  padding: 10px;
+  padding: 10px 0;
   background: #333;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info {
@@ -87,6 +162,75 @@ td {
 
 .my-header {
   font-size: 16pt;
+}
+
+.image-column:first-child(p) {
+  text-align: left;
+  background: #fff;
+}
+
+#mobile-menu {
+  display: none;
+}
+
+rect {
+  fill: #fff;
+}
+
+svg {
+  float: right;
+  display: none;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.test-container {
+  width: 100%;
+  background: purple;
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.mijn-container {
+  /* width: 100%; */
+  margin: 10px;
+  padding: 14px;
+  background: purple;
+  height: 20px;
+  display: none;
+}
+/* Media query altijd onderaan plaatsen, anders werkt het niet */
+
+/* @media only screen and (min-width: 0px) and (max-width: 300px) {
+  .test-container {
+    display: none;
+  }
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .menu-button {
+    display: flex;
+  }
+  .image-column {
+    width: 96%;
+    margin-bottom: 10px;
+    left: 0px;
+  }
+  .mijn-container {
+    display: block;
+  }
+
+  #menu-container {
+    display: none;
+  }
+  /* #my-mobile-menu {
+    display: block;
+  } */
+
+  svg {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 900px) {
@@ -101,9 +245,11 @@ td {
     width: 100%;
     margin: auto;
   }
+
+  #mobile-menu-container {
+    display: block;
+  }
 }
 
-.image-column:first-child(p) {
-  text-align: left;
-  background: #fff;
+@media only screen and (min-width: 901px) and (max-width: 1440px) {
 }

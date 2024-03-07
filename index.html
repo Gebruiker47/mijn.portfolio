@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
     <title>Home</title>
   </head>
   <body>
+    <div class="menu-button" onclick="myMenu()">
+      <div class="menu-btn-burger"></div>
+    </div>
+
+    <!-- <div class="test-container">
+      <svg viewBox="0 0 100 80" width="40" height="40" onclick="myMenu()">
+        <rect width="100" height="10"></rect>
+        <rect y="30" width="100" height="10"></rect>
+        <rect y="60" width="100" height="10"></rect>
+      </svg>
+    </div> -->
+
+    <!-- <div class="mijn-container"></div> -->
+    <!-- <div id="my-mobile-menu">
+      <svg viewBox="0 0 100 80" width="40" height="40" onclick="myMenu()">
+        <rect width="100" height="10"></rect>
+        <rect y="30" width="100" height="10"></rect>
+        <rect y="60" width="100" height="10"></rect>
+      </svg>
+    </div> -->
+
+    <div id="mobile-menu-container">
+      <ul id="mobile-menu">
+        <li><a href="./">Home</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/vacature-website.html">Website</a></li>
+      </ul>
+    </div>
+
     <div id="menu-container">
       <ul id="menu">
         <li><a href="./">Home</a></li>
@@ -98,5 +128,6 @@
         applicatie gaan.
       </p>
     </div>
+    <script src="./js/functions.js"></script>
   </body>
 </html>
