@@ -60,6 +60,12 @@ img {
   border-radius: 5px;
 }
 
+.menu-button p {
+  color: #fff;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
 .menu-btn-burger {
   position: absolute;
   right: 20px;
