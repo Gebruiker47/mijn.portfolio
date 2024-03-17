@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <title>Vacature website</title>
+    <title>Vacature applicatie</title>
   </head>
   <body>
     <div class="menu-button" onclick="myMenu()">
-      <p>Vacature website</p>
+      <p>Vacature applicatie</p>
       <div class="menu-btn-burger"></div>
     </div>
 
@@ -29,27 +29,51 @@
     </div>
     <div class="container">
       <p class="info">
-        Hieronder ziet u screenshots van mijn website die ik als hobby heb
-        gebouwd. Daarnaast heb ik met Vue.js 3 en Pinia een filterapplicatie
-        gebouwd met zoveel mogelijk filteropties zoals slider, checkboxes,
-        radiobuttons en nog meer. De screenshots van de filterapplicatie zet ik
-        op een later moment op de website.
+        Deze pagina bevat de informatie over mijn vacature applicatie. Ongeveer
+        3 jaar geleden heb ik deze applicatie als hobby gebouwd. De
+        <a href="#technische_informatie">technische informatie</a> zijn
+        hieronder opgesomd. Verder vindt u op deze pagina
+        <a href="#uitleg">uitleg</a> en screenshots over de applicatie, zodat u
+        een beeld krijgt hoe het eruit ziet en wat het doet.
       </p>
 
       <p class="info">
-        De website is totaal dynamisch en past zich aan als een gebruiker de
-        data verandert zoals het aantal open vacatures, gesloten vacatures etc.
-        Er is gebruik gemaakt van responsive design, zodat de gebruikers op alle
-        devices de website makkelijk kunnen bekijken. Daarnaast is er rekening
-        gehouden met de UX voor een duidelijk overzicht. U kunt deze website
-        downloaden om als web applicatie te gebruiken, zie de
-        <b><i>afbeeldingen</i></b> 5.1 en 5.2 onderaan deze pagina.
+        De vacature applicatie is totaal dynamisch en past zich aan als een
+        gebruiker de data verandert, zoals het aantal open vacatures, gesloten
+        vacatures etc. Er is gebruik gemaakt van responsive design, zodat de
+        gebruikers op alle devices de applicatie makkelijk kunnen bekijken.
+        Daarnaast is er rekening gehouden met de UX voor een duidelijk
+        overzicht. U kunt deze applicatie downloaden om als web applicatie te
+        gebruiken, zie de
+        <b><i>afbeeldingen</i></b>
+        <a href="#afbeelding_5.1">5.1</a> en
+        <a href="#afbeelding_5.2">5.2</a> onderaan deze pagina.
       </p>
+
+      <h1 id="technische_informatie" class="my-header">Technische gegevens:</h1>
+      <ol>
+        <li>
+          <b>Back-end : </b>Php (deels OOP), mysql. <b>Php-versie: 7.4.28</b>
+        </li>
+        <li>
+          <b>Front-end:</b> Html5, Css3, Bootstrap, Javascript, Custom
+          Components.
+        </li>
+        <li><b>Framework:</b> Angularjs 1.6.2.</li>
+        <li><b>Data:</b> Sql queries en Json API.</li>
+        <li>
+          <b>Progressive Web App</b> (PWA) : Installeer en gebruik de website
+          als een (web) app.
+        </li>
+      </ol>
+
       <div class="more-details">
+        <h1 id="uitleg" class="my-header">Uitleg over de applicatie:</h1>
         <p>
           <strong>Afbeelding 1</strong> is een screenshot van de home pagina van
-          mijn vacature website. Op deze pagina kan een gebruiker een vacature
-          toevoegen, verwijderen, wijzigen of details van een vacature lezen.
+          mijn vacature applicatie. Op de home pagina van de applicatie kan een
+          gebruiker een vacature toevoegen, verwijderen, wijzigen of details van
+          een vacature lezen.
         </p>
         <p>
           <strong>Afbeelding 2</strong> hieronder toont de vacature-overzicht
@@ -57,10 +81,10 @@
           toegevoegd. Deze pagina bevat filteropties die een gebruiker kan
           filteren op categorie, niveau en status. Verder kan een gebruiker een
           vacature zoeken op vacature-nummer, title, categorie, plaats en andere
-          gegevens. De onderstaande pagina is een html pagina en is gebouwd met
-          Angular 1.6.2. De gegevens worden uit de mysql database opgehaald en
-          omgezet in Json format. Daarna worden de gegevens met ng-repeat op het
-          scherm afgedrukt.
+          beschikbare gegevens. De onderstaande pagina is een html pagina en is
+          gebouwd met Angular 1.6.2. De gegevens worden uit de mysql database
+          opgehaald en omgezet in Json format. Vervolgens worden de gegevens met
+          ng-repeat op het scherm afgedrukt.
         </p>
 
         <p>
@@ -71,12 +95,14 @@
         </p>
 
         <p>
-          <strong>Afbeelding 4</strong> toont een login pagina. Om CV te zien
-          dient een gebruiker in te loggen met eenvooraf gegeven code. Deze code
-          heeft een duur van 7 dagen. Na 7 dagen vervalt de code. Om de code te
-          heractiveren, kan ik de datum via de database verlengen.
+          <strong>Afbeelding 4</strong> toont een login pagina. Om mijn CV te
+          zien dient een gebruiker in te loggen met een vooraf gegenereerde
+          code. Deze code heeft een duur van 7 dagen. Na 7 dagen vervalt de
+          code. Om de code te heractiveren, kan ik de datum via de database
+          verlengen.
         </p>
       </div>
+
       <div class="image-column">
         <p>Afbeelding 1 : Home</p>
         <img src="../src/vacature-website/Home.png" alt="Home" />
@@ -100,11 +126,11 @@
       </div>
 
       <div class="image-column">
-        <p>Afbeelding 5.1 : PWA - Desktop</p>
+        <p id="afbeelding_5.1">Afbeelding 5.1 : PWA - Desktop</p>
         <img src="../src/vacature-audits/pwa.png" alt="progressive web app" />
       </div>
       <div class="image-column">
-        <p>Afbeelding 5.2 : PWA - Mobile</p>
+        <p id="afbeelding_5.2">Afbeelding 5.2 : PWA - Mobile</p>
         <img
           src="../src/vacature-audits/webapp-landscape.jpg"
           alt="progressive web app"

@@ -42,6 +42,8 @@ img {
   color: #fff;
 }
 
+/* MENU BUTTON */
+
 /* Custom hamburger menu */
 
 .menu-button {
@@ -58,6 +60,8 @@ img {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
   margin-bottom: -16px;
   /* border-radius: 5px; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .menu-button p {
@@ -90,11 +94,11 @@ img {
 }
 
 .menu-btn-burger::before {
-  transform: translateY(-16px);
+  transform: translateY(-12px);
 }
 
 .menu-btn-burger::after {
-  transform: translateY(16px);
+  transform: translateY(12px);
 }
 
 /* animatie van de hamburger menu */
@@ -170,10 +174,7 @@ td {
   background: #b8daff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 100, 47, 0.2);
-}
-
-.my-header {
-  font-size: 16pt;
+  margin-top: 25px;
 }
 
 .image-column:first-child(p) {
@@ -221,6 +222,14 @@ svg {
 } */
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
+  .my-header {
+    background: grey;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20pt;
+  }
   .menu-button {
     display: flex;
   }
@@ -246,13 +255,6 @@ svg {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 900px) {
-  .my-header {
-    margin: auto;
-    width: 100%;
-    font-size: 18pt;
-    text-align: center;
-    background: yellow;
-  }
   .container {
     width: 100%;
     margin: auto;
