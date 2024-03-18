@@ -252,6 +252,11 @@ svg {
   svg {
     display: block;
   }
+  /* De onderstaande zorgt ervoor dat de mobile menu items onder elkaar komen te staan */
+  #mobile-menu li {
+    display: flex;
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 900px) {
