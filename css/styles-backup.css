@@ -12,12 +12,13 @@ section {
 .vaardigheden {
   display: flex;
   flex-direction: column;
+  /* width: 24%; */
   margin: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 5px;
+  width: 20%;
   overflow: hidden;
   text-align: center;
-  width: 13.4%;
 }
 
 .myskills-overview {
@@ -40,10 +41,6 @@ section {
   background: #fff;
   float: right;
 }
-ul {
-  margin: 0px;
-}
-
 /* Begin test */
 
 main {
@@ -71,6 +68,44 @@ main {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .vaardigheden {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  .test-cardview1 {
+    width: 100%;
+  }
+  .vaardigheden {
+    width: 46%;
+  }
+
+  /* Truncate */
+  .vaardigheden p {
+    /* width: auto; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 560px) {
+  .test-cardview1 {
+    width: 45%;
+  }
+  .vaardigheden {
+    width: 32%;
+  }
+}
+
+@media only screen and (min-width: 561px) and (max-width: 1024px) {
+  .test-cardview1 {
+    width: 32%;
+  }
+}
+/*  Einde test */
 
 #mobile-menu {
   display: none;
@@ -135,15 +170,14 @@ img {
   height: 80px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
-  margin-bottom: -16px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
   /* background: #333; */
-  /* Opacity */
-  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: rgba(255, 255, 255, 0.8);
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  margin-bottom: -16px;
   /* border-radius: 5px; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .menu-button p {
@@ -229,10 +263,6 @@ td {
   color: rgb(0, 0, 0);
 }
 
-#menu a:hover {
-  text-decoration: none;
-}
-
 #menu li:hover {
   background: white;
 }
@@ -303,8 +333,13 @@ svg {
   height: 20px;
   display: none;
 }
-
 /* Media query altijd onderaan plaatsen, anders werkt het niet */
+
+/* @media only screen and (min-width: 0px) and (max-width: 300px) {
+  .test-container {
+    display: none;
+  }
+} */
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
   .my-header {
@@ -341,43 +376,6 @@ svg {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 320px) {
-  .vaardigheden {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  .vaardigheden {
-    width: 46.5%;
-  }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .vaardigheden {
-    width: 31%;
-  }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .vaardigheden {
-    width: 23%;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  .vaardigheden {
-    width: 18%;
-  }
-}
-/* @media only screen and (max-width: 1201px) {
-  .vaardigheden {
-    width {
-      width: 13%;
-    }
-  }
-} */
-
 @media only screen and (min-width: 0px) and (max-width: 900px) {
   .container {
     margin: auto;
@@ -391,4 +389,7 @@ svg {
     position: fixed;
     right: 0;
   }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1440px) {
 }
