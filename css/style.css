@@ -402,3 +402,8 @@ svg {
     right: 0;
   }
 }
+
+.centerItems {
+  display: block;
+  margin: 0 auto;
+}
